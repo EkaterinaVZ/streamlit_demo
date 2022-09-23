@@ -51,4 +51,4 @@ if run_button:
 
     st.balloons()
     st.success("Possible variants for the sentence:")
-    st.write(text.json()
+    st.write(text.json())
