@@ -5,7 +5,7 @@ import time
 import requests
 import streamlit as st
 
-adr = 'api-service'
+adr = 'http://api-service:8000'
 
 #  название
 st.header('Model "Fill mask"')
