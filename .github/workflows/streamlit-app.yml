@@ -28,6 +28,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./web/Dockerfile
+          file: ../web/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/mlstreamlit:latest
