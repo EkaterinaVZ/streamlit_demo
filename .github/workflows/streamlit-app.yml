@@ -29,5 +29,6 @@ jobs:
         with:
           context: .
           file: ./web/Dockerfile
+          file: ./fast/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/mlstreamlit:latest
