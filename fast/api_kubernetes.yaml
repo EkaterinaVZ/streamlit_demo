@@ -24,6 +24,12 @@ apiVersion: v1
 kind: Service
 metadata:
   name: api-service
+   annotations:
+    # Тип балансировщика: внутренний.
+    yandex.cloud/load-balancer-type: internal
+    # Идентификатор подсети, в которой необходимо выделить IP-адрес для
+    # внутреннего сетевого балансировщика нагрузки.
+    yandex.cloud/subnet-id: enp3m0q5281u1n26dtfc
 spec:
   type: LoadBalancer
   selector:
