@@ -29,7 +29,7 @@ metadata:
     yandex.cloud/load-balancer-type: internal
     # Идентификатор подсети, в которой необходимо выделить IP-адрес для
     # внутреннего сетевого балансировщика нагрузки.
-    yandex.cloud/subnet-id: enp3m0q5281u1n26dtfc
+    yandex.cloud/subnet-id: enpmlfbqv95slqrdl8fi
 spec:
   type: LoadBalancer
   selector:
